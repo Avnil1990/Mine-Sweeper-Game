@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: url('/image/image3.png') no-repeat fixed top center;
+    background: url('image/image3.png') no-repeat fixed top center;
 }
 
 h1 {

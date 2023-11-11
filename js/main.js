@@ -33,6 +33,8 @@ var gBoard
 
 function onInit() {
 
+    playSound2(7)
+    
     startGame()
     
 }

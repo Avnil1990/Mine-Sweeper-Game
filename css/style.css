@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: url('/image/image3.png') no-repeat fixed top center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    font-size: 50px;
+}
+
+.outer-container {
+    border: 5px solid moccasin;
+    margin: auto;
+
+    transition: 1000ms;
+
+    display: none;
+}
+
+.outer-cell {
+    margin: auto;
+    text-align: center;
+    border: 5px solid bisque;
+    background-color: rgb(251, 212, 114);
+    padding: 5px;
+
+    transition: 1000ms;
+}
+
+
+.board-container {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+
+    text-align: center;
+    border: 1px solid gray;
+    background-color: rgb(231, 226, 226);
+    padding: 0;
+
+    font-size: 17px;
+    cursor: default;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    margin-top: auto;
+    margin-top: auto;
+    margin-bottom: 0px;
+
+    text-align: center;
+
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+.timer {
+    font-size: large;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+
+    transition: 1000ms;
+
+    display: none;
+}
+
+
+.btn-smile {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+
+    border-color: aliceblue;
+    background-color: bisque;
+    font-size: large;
+    margin: auto;
+
+    transition: 1000ms;
+}
+
+
+.lives {
+    font-size: small;
+    margin: auto;
+    transition: 1000ms;
+}
+
+.numlives {
+    font-size: small;
+    margin: auto;
+}
+
+
+
+
+
+.levelbtns {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+
+    text-shadow: 2px 2px 5px white;
+
+    background-color: rgb(251, 212, 114)
+}
+
+.intro {
+    margin: auto;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+
+    display: block;
+}
+
+
+
+
+.back {
+    margin: auto;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+
+    display: none;
+}
+
+.backbtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+
+    text-shadow: 2px 2px 5px white;
+
+    background-color: rgb(251, 212, 114)
+}
